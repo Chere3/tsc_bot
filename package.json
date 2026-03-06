@@ -3,12 +3,15 @@
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "typescript": "^5.9.2"
   },
   "scripts": {
     "dev": "bun run --watch --bun src/index.ts",
     "dev:debug": "bun run --watch --bun src/index.ts dev",
-    "start": "bun run --bun src/index.ts start"
+    "start": "bun run --bun src/index.ts start",
+    "typecheck": "tsc --noEmit",
+    "validate": "bun run typecheck"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

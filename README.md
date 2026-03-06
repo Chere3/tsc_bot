@@ -97,14 +97,12 @@ export default new Command({
 | `bun run dev` | Start with hot reload |
 | `bun run dev:debug` | Start with debug logging |
 | `bun run start` | Production start |
+| `bun run typecheck` | Run strict TypeScript checks |
+| `bun run validate` | Portfolio quality gate (currently typecheck) |
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feat/amazing-feature`
-3. Commit your changes: `git commit -m 'feat: add amazing feature'`
-4. Push to the branch: `git push origin feat/amazing-feature`
-5. Open a Pull Request
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for branch strategy, validation gates, and PR checklist.
 
 ## License
 
